@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FlareSolverr - A powerful proxy server to bypass Cloudflare and other anti-bot systems. Learn how to install FlareSolverr and solve common issues.">
+    <meta name="keywords" content="flaresolverr, how to install flaresolverr, cloudflare bypass, proxy server">
+    <title>FlareSolverr - Bypass Cloudflare Protection</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="logo">
+                    <span class="logo-text">FlareSolverr</span>
+                </a>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link active">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="https://github.com/flare-solverr/FlareSolverr" class="nav-link" target="_blank" rel="noopener">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                        GitHub
+                    </a></li>
+                    <li><a href="download.html" class="btn-download">Download</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Bypass Cloudflare Protection with <span class="highlight">FlareSolverr</span></h1>
+                    <p class="hero-description">A powerful proxy server to bypass Cloudflare and DDoS-GUARD protection. FlareSolverr acts as a proxy server that starts a headless browser with undetected mode, solving challenges automatically.</p>
+                    <div class="hero-buttons">
+                        <a href="https://flaresolverr.com/" class="btn btn-primary" target="_blank" rel="noopener">Visit Official Site</a>
+                        <a href="download.html" class="btn btn-secondary">Get Started</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-card">
+                        <div class="code-snippet">
+                            <div class="code-header">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <pre><code><span class="comment"># Docker Installation</span>
+<span class="command">docker pull</span> ghcr.io/flaresolverr/flaresolverr
+<span class="command">docker run</span> -d \
+  --name=flaresolverr \
+  -p <span class="number">8191</span>:<span class="number">8191</span> \
+  ghcr.io/flaresolverr/flaresolverr</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose FlareSolverr?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h3>Fast & Reliable</h3>
+                    <p>High-performance proxy server designed to handle multiple requests efficiently with minimal latency.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Secure Solution</h3>
+                    <p>Built with security in mind, providing a safe way to bypass protection systems without compromising your data.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Easy Integration</h3>
+                    <p>Simple API interface that makes integration with your applications straightforward and hassle-free.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛠️</div>
+                    <h3>Open Source</h3>
+                    <p>Completely open source and community-driven, with active development and regular updates.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Installation Guide Section -->
+    <section class="installation">
+        <div class="container">
+            <h2 class="section-title">Getting Started with FlareSolverr</h2>
+            <div class="installation-content">
+                <div class="installation-text">
+                    <h3>Quick Installation Guide</h3>
+                    <p>If you're wondering <a href="https://flaresolverr.com/what-are-the-installation-steps-for-flaresolverr/" class="inline-link">how to install FlareSolverr</a>, we've made it incredibly simple. The process is straightforward and can be completed in just a few minutes. <strong>FlareSolverr</strong> supports multiple installation methods including Docker, Docker Compose, and native installation on various operating systems.</p>
+                    
+                    <p>For users looking to deploy on Linux systems, we provide comprehensive documentation on <a href="https://flaresolverr.com/how-to-install-flaresolverr-on-linux/" class="inline-link">how to install FlareSolverr on Linux</a>. The installation process is optimized for different Linux distributions including Ubuntu, Debian, CentOS, and Arch Linux.</p>
+                    
+                    <h4>Common Installation Methods:</h4>
+                    <ul class="install-list">
+                        <li><strong>Docker:</strong> The recommended method for most users, providing isolation and easy updates</li>
+                        <li><strong>Docker Compose:</strong> Perfect for multi-container deployments and production environments</li>
+                        <li><strong>Native Installation:</strong> Direct installation on your system for maximum performance</li>
+                        <li><strong>Python Package:</strong> Install via pip for Python-based projects</li>
+                    </ul>
+                    
+                    <div class="note-box">
+                        <strong>Note:</strong> If you encounter errors during installation or runtime, our troubleshooting guide covers common issues and their solutions to ensure a smooth experience.
+                    </div>
+                </div>
+                <div class="installation-steps">
+                    <div class="step">
+                        <span class="step-number">1</span>
+                        <div class="step-content">
+                            <h4>Download</h4>
+                            <p>Get the latest version from our official repository or Docker Hub</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <span class="step-number">2</span>
+                        <div class="step-content">
+                            <h4>Configure</h4>
+                            <p>Set up your environment variables and configuration files</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <span class="step-number">3</span>
+                        <div class="step-content">
+                            <h4>Deploy</h4>
+                            <p>Start the service and integrate with your applications</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Cases Section -->
+    <section class="use-cases">
+        <div class="container">
+            <h2 class="section-title">Perfect For</h2>
+            <div class="use-cases-grid">
+                <div class="use-case">
+                    <h3>Web Scraping</h3>
+                    <p>Bypass Cloudflare protection when scraping websites for data collection and analysis.</p>
+                </div>
+                <div class="use-case">
+                    <h3>API Integration</h3>
+                    <p>Integrate with APIs that are protected by Cloudflare or similar anti-bot systems.</p>
+                </div>
+                <div class="use-case">
+                    <h3>Automation Tools</h3>
+                    <p>Enable your automation tools like Sonarr, Radarr, and Jackett to access protected content.</p>
+                </div>
+                <div class="use-case">
+                    <h3>Testing & Development</h3>
+                    <p>Test your applications against Cloudflare-protected environments during development.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Get Started?</h2>
+                <p>Join thousands of developers using FlareSolverr to bypass protection systems efficiently.</p>
+                <div class="cta-buttons">
+                    <a href="https://flaresolverr.com/" class="btn btn-primary" target="_blank" rel="noopener">Explore Documentation</a>
+                    <a href="https://github.com/flare-solverr/FlareSolverr" class="btn btn-outline" target="_blank" rel="noopener">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>FlareSolverr</h3>
+                    <p>A powerful proxy server solution for bypassing Cloudflare and DDoS-GUARD protection systems.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="download.html">Download</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://flaresolverr.com/" target="_blank" rel="noopener">Official Site</a></li>
+                        <li><a href="https://github.com/flare-solverr/FlareSolverr" target="_blank" rel="noopener">GitHub Repository</a></li>
+                        <li><a href="https://github.com/flare-solverr/FlareSolverr/issues" target="_blank" rel="noopener">Report Issues</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/flare-solverr/FlareSolverr" target="_blank" rel="noopener" aria-label="GitHub">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 FlareSolverr. All rights reserved.</p>
+                <p>Designed & Developed with ❤️ by FlareSolverr Team</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
